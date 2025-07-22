@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Tech from "../components/Tech.astro";
+import Project from "../components/Project.astro";
+import Contact from "../components/Contact.astro";
+---
+
+<Layout>
+  <Header />
+
+  <section id="about" class="about">
+    <h2>Hi, I'am Marwa...</h2>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <Project />
+  </section>
+
+  <section id="tech" class="tech">
+    <h2>Tech</h2>
+    <Tech />
+  </section>
+
+  <section id="contact" class="contact">
+    <Contact />
+  </section>
+</Layout>
